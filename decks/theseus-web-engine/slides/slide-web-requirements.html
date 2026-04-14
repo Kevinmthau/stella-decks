@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../styles/deck.css">
+<link rel="stylesheet" href="../theseus-web-engine.css">
+</head>
+<body>
+<div class="slide rt-slide rt-requirements">
+  <div class="rt-title rt-requirements__title">Key Requirements</div>
+  <div class="rt-requirements__list">
+    <div class="rt-req">
+      <svg class="rt-req__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <g fill="none" stroke="#f4f4f4" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="12" cy="12" r="8.4"/>
+          <path d="M12 1.8V4.1M12 19.9V22.2M1.8 12H4.1M19.9 12H22.2M4.6 4.6L6.2 6.2M17.8 17.8L19.4 19.4M4.6 19.4L6.2 17.8M17.8 6.2L19.4 4.6"/>
+        </g>
+      </svg>
+      <div>
+        <div class="rt-req__heading">Cross-Platform Plasticity</div>
+        <div class="rt-req__body">Platform feature modularization to allow for quickly adding new operating system support as well as new core capabilities such as WebGPU, Bluetooth, and adjacent platform services.</div>
+      </div>
+    </div>
+    <div class="rt-req">
+      <svg class="rt-req__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <g fill="none" stroke="#f4f4f4" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="12" cy="12" r="8.4"/>
+          <path d="M12 1.8V4.1M12 19.9V22.2M1.8 12H4.1M19.9 12H22.2M4.6 4.6L6.2 6.2M17.8 17.8L19.4 19.4M4.6 19.4L6.2 17.8M17.8 6.2L19.4 4.6"/>
+        </g>
+      </svg>
+      <div>
+        <div class="rt-req__heading">Build-out of Windows and Linux Support</div>
+        <div class="rt-req__body">Filling in Windows and Linux implementations for the initial cross-platform roll-out, primarily across graphics support, event and window-system support, networking support, and integrations support.</div>
+      </div>
+    </div>
+    <div class="rt-req">
+      <svg class="rt-req__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <g fill="none" stroke="#f4f4f4" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="12" cy="12" r="8.4"/>
+          <path d="M12 1.8V4.1M12 19.9V22.2M1.8 12H4.1M19.9 12H22.2M4.6 4.6L6.2 6.2M17.8 17.8L19.4 19.4M4.6 19.4L6.2 17.8M17.8 6.2L19.4 4.6"/>
+        </g>
+      </svg>
+      <div>
+        <div class="rt-req__heading">Separate-Process GPU Rendering</div>
+        <div class="rt-req__body">Full extraction of graphics implementation from the Web Process into a dedicated GPU Process with Display List support in order to support modernized graphics and font-rendering pipelines.</div>
+      </div>
+    </div>
+    <div class="rt-req">
+      <svg class="rt-req__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <g fill="none" stroke="#f4f4f4" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="12" cy="12" r="8.4"/>
+          <path d="M12 1.8V4.1M12 19.9V22.2M1.8 12H4.1M19.9 12H22.2M4.6 4.6L6.2 6.2M17.8 17.8L19.4 19.4M4.6 19.4L6.2 17.8M17.8 6.2L19.4 4.6"/>
+        </g>
+      </svg>
+      <div>
+        <div class="rt-req__heading">Persistent Data Structures Re-architecture</div>
+        <div class="rt-req__body">Re-architecting the key underlying data structures to support persistence in order to enable sharing and saving of tabs.</div>
+      </div>
+    </div>
+    <div class="rt-req">
+      <svg class="rt-req__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <g fill="none" stroke="#f4f4f4" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="12" cy="12" r="8.4"/>
+          <path d="M12 1.8V4.1M12 19.9V22.2M1.8 12H4.1M19.9 12H22.2M4.6 4.6L6.2 6.2M17.8 17.8L19.4 19.4M4.6 19.4L6.2 17.8M17.8 6.2L19.4 4.6"/>
+        </g>
+      </svg>
+      <div>
+        <div class="rt-req__heading">Browser-in-Browser Implementation</div>
+        <div class="rt-req__body">The ability to write major portions of the engine and the browser “in the engine itself” by using web technologies.</div>
+      </div>
+    </div>
+    <div class="rt-req">
+      <svg class="rt-req__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <g fill="none" stroke="#f4f4f4" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="12" cy="12" r="8.4"/>
+          <path d="M12 1.8V4.1M12 19.9V22.2M1.8 12H4.1M19.9 12H22.2M4.6 4.6L6.2 6.2M17.8 17.8L19.4 19.4M4.6 19.4L6.2 17.8M17.8 6.2L19.4 4.6"/>
+        </g>
+      </svg>
+      <div>
+        <div class="rt-req__heading">BIB Features</div>
+        <div class="rt-req__body">General bucket for features that will either be written entirely or partially using BIB, such as many of the collaboration and sharing features.</div>
+      </div>
+    </div>
+  </div>
+  <div class="rt-bottom-rule"></div>
+</div>
+</body>
+</html>

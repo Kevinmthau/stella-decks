@@ -1,0 +1,14 @@
+{
+  "title": "Series A RT",
+  "slides": [
+    { "file": "slide-cover.html", "label": "Cover" },
+    { "file": "slide-web-requirements.html", "label": "Key Requirements" },
+    { "file": "slide-web-timeline.html", "label": "Web Engine Timeline" },
+    { "file": "slide-industrial-design.html", "label": "Industrial Design" },
+    { "file": "slide-custom-silicon.html", "label": "Custom Silicon" },
+    { "file": "slide-silicon-requirements.html", "label": "Silicon Requirements" },
+    { "file": "slide-platform-comparison.html", "label": "Platform Comparison" },
+    { "file": "slide-partner-dependability.html", "label": "Partner Dependability" },
+    { "file": "slide-silicon-timeline.html", "label": "Custom Silicon Timeline" }
+  ]
+}
